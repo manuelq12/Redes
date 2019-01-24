@@ -1,0 +1,57 @@
+Sesión 2 Redes y Comunicaciones
+
+1. Describa las topologías de las redes
+La estructura de una red la componen:
+-	 Maquinas Hosts: Máquinas interconectadas
+-	Subred de Comunicaciones : Transportar Mensajes entre hosts
+Topologías Básicas
+-	Bus: Consiste en un solo cable, llamado línea principal que conecta a todos los equipos de la red en una sola línea de comunicaciones. (LAN’s)
+-	Estrella: Los equipos se conectan mediante segmentos de cable a un componente central llamado concentrador. Las señales pasan por el emisor, luego concentrador y finalmente en el receptor.
+El nodo central se llama CONMUTADOR, si este colapsa significa que toda la red colapsa, por este pasa todo el tráfico de red.
+-	Anillo: Los equipos se conectan formando un círculo de cable. Los mensajes se mueven dentro del anillo en una misma dirección y pasan por todos los equipos. Todos los nodos se involucran en la transmisión de mensaje, cada equipo actúa como un repetidor. Si falla un nodo, falla toda la red.
+
+2. Explique el funcionamiento de una red
+La red permite que se obtenga un entorno autónomo que permite que los elementos que se encuentran dentro de la red puedan intercambiar información a un reducido costo, genera estandarización de las aplicaciones, además se obtienen de manera oportuna datos e información y por último mejora la organización y las comunicaciones de una manera eficiente. 
+Contiene elementos lógicos y físicos
+-	Lógicos: Software de comunicaciones, control y administración de red
+-	Físicos: Nodos y enlaces
+Además cuenta con:
+-	 Servidores
+-	Clientes
+-	Medios
+-	Datos compartidos
+-	Recursos
+Básicamente:
+Los nodos desean transmitir el mensaje
+Los enlaces son el medio por el cual viaja el mensaje
+Características primordiales en el intercambio de información: Seguridad, confiabilidad y oportunidad.
+Dificultades:
+-  A y B no estén en el mismo sitio
+-  A y B no hablen el mismo idioma
+-  A y B intercambien información de naturaleza diversa
+Redes Punto a Punto: No hay equipos que funcionen como servidores especializados. (Pequeño)
+Redes Basadas en Servidor: Existe un equipo que sirve como prestador de servicios para los demás equipos en la red. La información es centralizada, controlada y fácil de administrar. (Grandes) 
+3. Interredes
+Se ha utilizado para solucionar el problema que existía en la necesidad de conectar equipos que se encontraban en diferentes redes. Se basa en usuarios y separa la comunicación y la tecnología de red.
+Se generan niveles y protocolos para poder generar el buen funcionamiento de la red.
+
+
+4. Explique los modelos de referencia, protocolos, y redes basadas en niveles
+La red basada en niveles permite entender la red de una manera sencilla en pequeñas partes las cuales cada una realiza una tarea para el correcto funcionamiento de la red.
+Modelos de referencia: Los modelos de referencia permiten definir el alcance y la arquitectura de un sistema. Es un esquema que ayuda a entender la estructura de un sistema para lograr la correcta implementación de este.
+Protocolos: Son las reglas y procedimientos para comunicarse. Cada protocolo funciona en una capa de la red, así determinando su función. Pueden trabajar juntos si es necesario.
+5. Explique las capas de una red
+1. Nivel de aplicación: Capa que interactúa con el usuario.
+2. Nivel de presentación: Representa la preparación o traducción del formato de aplicación a red o viceversa.
+3. Nivel de sesión: Genera una sesión para que dos ordenadores puedan comunicarse.
+4. Nivel de transporte: Se encarga del envío de archivos
+5. Nivel de red: Se direcciona los paquetes de información
+6. Nivel de enlace: Transmite un bloque de bits sin errores
+7. Nivel físico: Se ocupa de transferir bits por un canal físico
+6. ¿Qué es una dirección IP, un nombre de dominio y un puerto?
+IP: Es la dirección que identifica a un ordenador dentro de la red.
+Nombre de dominio: Es un nombre que se da como una traducción para permitir mejor entendimiento de los Host en vez de la IP
+Puertos: Los puertos son abstracciones de la memoria del ordenador que permite que se le sean asignados un servicio dentro de la red para así no colapsarla y hacerla más eficiente.
+Notas:
+Una red es un sistema de comunicación que permite el intercambio de información entre un conjunto de dispositivos autónomos que se encuentran separados sobre un tiempo total o parcial.
+Los dispositivos deben ser autónomos para ser una red.
