@@ -1,4 +1,4 @@
-package cliente_servidorThread;
+package cliente_servidor_Runnable;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -42,7 +42,6 @@ public class ClienteBienvenida {
 		} catch (Exception e) {
 
 		}
-
 	}
 
 }
